@@ -29,18 +29,19 @@ const DesktopTwentySixPage: React.FC = () => {
       <div className="bg-white-A700 flex flex-col font-montserrat items-start justify-start mx-auto pb-[414px] w-full">
         <div className="flex flex-col gap-[35px] items-center w-full">
           <Header2 className="flex flex-col items-center justify-center md:px-5 w-full" />
-          <div className="flex  flex-col md:px-5 relative w-full">
-            <div className="flex  flex-col mx-auto w-full">
+          <div className="flex flex-col md:px-5 relative w-full">
+            <div className="flex flex-col mx-auto w-full">
               <div
-                className="bg-cover bg-no-repeat h-[1032px] md:h-[917px] sm:h-[971px] mx-auto pl-[13px] py-[13px] w-[21%] bg-red-500"
+                className="bg-cover bg-no-repeat h-[1032px] md:h-[917px] sm:h-[971px] mx-auto pl-[13px] py-[13px] w-full"
                 style={{
                   backgroundImage:
                     "url('images/img_loginbannermasksvg_black_900.png')",
-                }}>
+                }}
+              >
                 <div className="flex m-auto w-[98%] md:w-full">
-                  <div className="md:h-[917px] h-[952px] ml-[undefinedpx] my-auto pb-1.5 px-1.5 w-[22%] z-[1]">
-                    <div className="absolute bg-white-A700 flex flex-col h-max inset-[0] items-center justify-center m-auto p-[25px] sm:px-5 rounded-[15px] shadow-bs7 w-[93%]">
-                      <div className="flex flex-col items-start justify-start mb-[674px] w-full">
+                  <div className="bg-white-A700  md:h-[917px] h-[952px] ml-[undefinedpx] my-auto pb-1.5 px-1.5 w-[22%] z-[1] rounded-[15px] shadow-bs7 w-[93%]">
+                    <div className=" bg-white-A700 flex flex-col h-max inset-[0] items-center justify-center m-auto p-[25px] sm:px-5 ">
+                      <div className="flex flex-col items-start justify-start  w-full">
                         <div className="flex flex-col items-start justify-start w-[34%] md:w-full">
                           <div
                             className="bg-cover bg-no-repeat flex flex-col h-[70px] items-start justify-start p-1 w-[84%] md:w-full"
@@ -91,7 +92,7 @@ const DesktopTwentySixPage: React.FC = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="absolute bottom-[5%] flex flex-col font-roboto inset-x-[0] items-center justify-start mx-auto py-2 w-[96%]">
+                    <div className=" bottom-[5%] flex flex-col font-roboto inset-x-[0] items-center justify-start mx-auto py-2 w-[96%]">
                       <div className="flex flex-row items-center justify-start px-4 w-full">
                         <Img
                           className="h-14 w-14"
@@ -289,7 +290,7 @@ const DesktopTwentySixPage: React.FC = () => {
                     </div>
                   </div>
                   <Img
-                    className="h-[358px] ml-[-11.48px] mr-5 mt-[39px] z-[1]"
+                    className="h-[358px] ml-[-11.48px] mr-5  z-[1]"
                     src="images/img_divlwadblockh90.svg"
                     alt="divlwpageconten"
                   />
@@ -299,7 +300,7 @@ const DesktopTwentySixPage: React.FC = () => {
                     alt="divbecomecustom"
                   />
                 </div>
-                <div className="absolute flex flex-col gap-[43px] h-max inset-y-[0] items-center justify-start my-auto right-[1%] w-[73%]">
+                <div className="absolute flex flex-col gap-[43px] h-max inset-y-[0] items-center justify-start  right-[1%] w-[73%]">
                   <div className="flex flex-col gap-6 items-start justify-start w-[98%] md:w-full">
                     <div className="bg-white-A700 border border-black-900 border-solid flex flex-col items-center justify-start p-[27px] sm:px-5 rounded-[15px] shadow-bs7 w-full">
                       <div className="flex flex-col items-start justify-start mb-[37px] w-full">
@@ -412,13 +413,14 @@ const DesktopTwentySixPage: React.FC = () => {
                       </div>
                     </div>
                     <div className="md:h-16 h-[70px] relative w-[13%]">
-                      <div className="absolute bg-purple-400 h-[45px] inset-x-[0] mx-auto rounded-[22px] top-[0] w-full"></div>
-                      <Text
-                        className="absolute bottom-[0] capitalize inset-x-[0] leading-[32.00px] mx-auto text-center text-white-A700 text-xl tracking-[0.50px] w-[37%] sm:w-full"
-                        size="txtMontserratRegular20"
-                      >
-                        Save
-                      </Text>
+                      <div className="bg-purple-400 py-3 inset-x-[0] rounded-[22px] top-[0] w-full">
+                        <Text
+                          className="capitalize inset-x-[0] leading-[32.00px] mx-auto text-center text-white-A700 text-xl tracking-[0.50px]  sm:w-full font-montserrat font-normal"
+                          size="txtMontserratRegular20"
+                        >
+                          Save
+                        </Text>
+                      </div>
                     </div>
                   </div>
                   <div className="flex flex-col font-fuzzybubbles items-start justify-start w-full">
@@ -433,6 +435,7 @@ const DesktopTwentySixPage: React.FC = () => {
                   </div>
                 </div>
               </div>
+
               <div className="flex flex-col font-fuzzybubbles items-center justify-start ml-auto mr-[18px] mt-[-52px] pb-3 px-3 w-3/4 z-[1]">
                 <div className="bg-white-A700 flex flex-col items-center justify-start mb-3 p-2 rounded-[5px] w-full">
                   <div className="flex flex-col gap-[15px] items-start justify-start my-[11px] w-full">
@@ -505,7 +508,7 @@ const DesktopTwentySixPage: React.FC = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="bg-white-A700 border border-black-900 border-solid flex flex-col font-roboto items-center justify-start ml-auto mr-1 mt-[-16px] p-[30px] sm:px-5 rounded-[15px] shadow-bs7 w-[77%] z-[1]">
+            <div className="bg-white-A700 border border-black-900 border-solid flex flex-col font-roboto items-center justify-start ml-auto mr-1 mt-[-16px] p-[30px] sm:px-5 rounded-[15px] shadow-bs7 w-[77%] z-[1]">
               <div className="flex flex-col gap-[27px] items-start justify-start mb-[35px] mt-[27px] w-full">
                 <div className="flex flex-row gap-[7px] items-start justify-start w-[8%] md:w-full">
                   <Img
@@ -583,7 +586,7 @@ const DesktopTwentySixPage: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="flex flex-col font-roboto md:gap-10 gap-[60px] items-end mt-[60px] px-1 w-full">
@@ -810,7 +813,7 @@ const DesktopTwentySixPage: React.FC = () => {
             </div>
           </div>
         </div>
-        {/* <div className="flex flex-col font-montserrat items-center justify-start mt-[652px] md:px-5 w-[93%] md:w-full">
+        <div className="flex flex-col font-montserrat items-center justify-start mt-[652px] md:px-5 w-[93%] md:w-full">
           <div className="flex flex-col items-center justify-end p-[50px] md:px-10 sm:px-5 w-full">
             <div className="flex flex-col items-center justify-start mt-7 pb-[98px] w-[86%] md:w-full">
               <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
@@ -1025,7 +1028,7 @@ const DesktopTwentySixPage: React.FC = () => {
               </div>
             </div>
           </div>
-        </div>  */}
+        </div>
       </div>
     </>
   );
