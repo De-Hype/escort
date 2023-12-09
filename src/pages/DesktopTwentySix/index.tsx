@@ -813,7 +813,7 @@ const DesktopTwentySixPage: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col font-montserrat items-center justify-start mt-[652px] md:px-5 w-[93%] md:w-full">
+        <div className="flex flex-col font-montserrat items-center justify-start mt-[10px] md:px-5 w-[93%] md:w-full">
           <div className="flex flex-col items-center justify-end p-[50px] md:px-10 sm:px-5 w-full">
             <div className="flex flex-col items-center justify-start mt-7 pb-[98px] w-[86%] md:w-full">
               <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
