@@ -26,7 +26,7 @@ const educationLevelOptionsList = [
 const DesktopTwentySixPage: React.FC = () => {
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-montserrat items-start justify-start mx-auto pb-[414px] w-full">
+      <div className="bg-white-A700 flex flex-col overflow-x-hidden font-montserrat items-start justify-start mx-auto pb-[414px] w-full">
         <div className="flex flex-col gap-[35px] items-center w-full">
           <Header2 className="flex flex-col items-center justify-center md:px-5 w-full" />
           <div className="flex flex-col md:px-5 relative w-full">

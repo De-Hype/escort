@@ -6,7 +6,7 @@ import Header1 from "components/Header1";
 const DesktopTwentyFivePage: React.FC = () => {
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-montserrat items-center justify-start mx-auto pb-[88px] w-full">
+      <div className="bg-white-A700 flex overflow-x-hidden flex-col font-montserrat items-center justify-start mx-auto pb-[88px] w-full">
         <Img
           className="h-[9px] sm:h-auto object-cover w-full"
           src="images/img_pseudo_3.png"
