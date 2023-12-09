@@ -2,6 +2,7 @@ import React from "react";
 
 import { Button, Img, Input, Line, List, Text } from "components";
 import Header1 from "components/Header1";
+import Header2 from "components/Header2";
 
 const BecomeamemberPage: React.FC = () => {
   return (
@@ -12,9 +13,9 @@ const BecomeamemberPage: React.FC = () => {
           src="images/img_pseudo_9x1440.png"
           alt="pseudo"
         />
-        {/* Header Starts Here */}
         <div className="md:h-[171px] h-[73px] sm:h-[85px] max-w-[1354px] mt-4 mx-auto md:px-5 relative w-full">
           <Header1 className="absolute bg-white-A700 border-b border-gray-200_03 border-solid bottom-[0] flex flex-col inset-x-[0] items-center justify-center mx-auto w-full" />
+
           <div className="absolute flex flex-col items-center justify-start left-[0] py-4 top-[0] w-[22%]">
             <div className="flex flex-col items-center justify-start w-full">
               <div className="flex flex-col items-start justify-start px-4 w-full">
@@ -29,18 +30,14 @@ const BecomeamemberPage: React.FC = () => {
             </div>
           </div>
         </div>
-        {/* Header Finish Here */}
-        
         <div className="md:h-[1043px] h-[1444px] sm:h-[954px] mt-[37px] md:px-5 relative w-full">
-        {/* Footer Total Starts Here */}
           <div className="absolute bottom-[0] flex flex-col inset-x-[0] items-center justify-start mx-auto w-[94%]">
             <div className="flex flex-col items-center justify-end p-[50px] md:px-10 sm:px-5 w-full">
-              {/* Footer Starts Here */}
               <div className="flex flex-col items-center justify-start mt-7 pb-[98px] w-[84%] md:w-full">
                 <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
                   <div className="flex md:flex-1 flex-col items-center justify-end pt-9 w-[34%] md:w-full">
                     <div className="flex flex-row items-center justify-start w-full">
-                      <div className="flex flex-col items-start  justify-start px-[11px] w-1/2">
+                      <div className="flex flex-col items-start justify-start px-[11px] w-1/2">
                         <div className="flex flex-col items-start justify-start pr-1.5 py-1.5">
                           <Text
                             className="text-gray-800 text-sm"
@@ -82,9 +79,8 @@ const BecomeamemberPage: React.FC = () => {
                           </Text>
                         </div>
                       </div>
-
-                      <div className="flex  flex-col items-start justify-start pb-[11px] px-[11px] w-1/2">
-                        <div className="flex  flex-col items-start justify-start pr-[7px] py-[7px] w-full">
+                      <div className="flex flex-col items-start justify-start pb-[11px] px-[11px] w-1/2">
+                        <div className="flex flex-col items-start justify-start pr-[7px] py-[7px] w-full">
                           <div className="flex flex-col items-center justify-start">
                             <Text
                               className="leading-[32.00px] text-gray-800 text-sm"
@@ -161,7 +157,6 @@ const BecomeamemberPage: React.FC = () => {
                       </div>
                     </div>
                   </div>
-
                   <div className="flex md:flex-1 flex-col font-roboto items-center justify-start pb-[11px] px-[11px] w-[17%] md:w-full">
                     <div className="flex flex-col gap-3 items-start justify-start mb-[111px] w-full">
                       <Text
@@ -201,15 +196,9 @@ const BecomeamemberPage: React.FC = () => {
                       </div>
                     </div>
                   </div>
-                  
                 </div>
-
               </div>
-              {/* Footer Ends Here */}
-
-              
-              {/* CopyRight Section Starts Here */}
-               <div className="flex flex-col items-center justify-start w-[84%] md:w-full">
+              <div className="flex flex-col items-center justify-start w-[84%] md:w-full">
                 <div className="flex md:flex-col flex-row md:gap-5 items-start justify-evenly w-full">
                   <div className="flex md:flex-1 flex-col items-center justify-start w-[67%] md:w-full">
                     <div className="flex flex-row items-center justify-start md:pr-10 sm:pr-5 pr-[349px] w-full">
@@ -255,28 +244,22 @@ const BecomeamemberPage: React.FC = () => {
                       </Text>
                     </div>
                   </div>
-
                 </div>
-              </div> 
-              {/* CopyRight Ends Here */}
+              </div>
             </div>
           </div>
-          {/* Footer Total Ends Here */}
+
           <div
-            // className="absolute bg-cover bg-no-repeat flex inset-x-[0] mx-auto pl-3 py-3 top-[0] w-full"
+            className="absolute bg-cover bg-no-repeat flex inset-x-[0] mx-auto pl-3 py-3 top-[0] w-full"
             style={{
               backgroundImage:
                 "url('images/img_loginbannermasksvg_black_900.png')",
             }}
           >
-            <div className="md:h-[917px] h-[952px] ml-[undefinedpx] my-auto pb-1.5 px-1.5 w-[21%] z-[1]">
-              {/* Keypoint 1 Starts */}
-
-              <div className="absolute bg-white-A700 flex flex-col h-max inset-[0] items-center justify-center m-auto p-[25px] sm:px-5 rounded-[15px] shadow-bs7 w-[93%]">
-                
+            <div className="relative md:h-[917px] h-[952px] ml-[undefinedpx] my-auto pb-1.5 px-1.5 w-[21%] z-[1]">
+              <div className="absolute bg-white-A700 flex flex-col h-max inset-[0] items-center justify-center m-auto p-[25px] sm:px-5 rounded-[15px] shadow-bs7 w-full">
                 <div className="flex flex-col items-start justify-start mb-[674px] w-full">
-                  
-                  <div className="flex flex-col items-start justify-start w-[34%] md:w-full">
+                  <div className="flex flex-col items-start justify-start w-full md:w-full">
                     <div
                       className="bg-cover bg-no-repeat flex flex-col h-[70px] items-start justify-start p-1 w-[84%] md:w-full"
                       style={{
@@ -290,48 +273,44 @@ const BecomeamemberPage: React.FC = () => {
                         alt="bv7mozwnhchqrqp_One"
                       />
                     </div>
-                  </div>
 
-                  <div className="flex flex-col items-center justify-start py-3 w-full">
-                    <div className="flex flex-col items-start justify-start w-full">
-                      <Text
-                        className="text-base text-blue_gray-900_02"
-                        size="txtMontserratMedium16Bluegray90002"
-                      >
-                        Tekena west
-                      </Text>
-                    </div>
-                    <div className="flex flex-col items-start justify-start w-full">
-                      <div className="flex flex-col items-center justify-end py-[5px]">
+                    <div className="flex flex-col items-center justify-start py-3 w-full">
+                      <div className="flex flex-col items-start justify-start w-full">
                         <Text
-                          className="text-[15px] text-gray-800"
-                          size="txtMontserratRegular15Gray800"
+                          className="text-base text-blue_gray-900_02"
+                          size="txtMontserratMedium16Bluegray90002"
                         >
-                          <span className="text-gray-800 font-montserrat text-left font-normal">
-                            Popularity:{" "}
-                          </span>
-                          <span className="text-purple-400 font-montserrat text-left font-normal">
-                            Very low
-                          </span>
+                          Tekena west
                         </Text>
                       </div>
+                      <div className="flex flex-col items-start justify-start w-full">
+                        <div className="flex flex-col items-center justify-end py-[5px]">
+                          <Text
+                            className="text-[15px] text-gray-800"
+                            size="txtMontserratRegular15Gray800"
+                          >
+                            <span className="text-gray-800 font-montserrat text-left font-normal">
+                              Popularity:{" "}
+                            </span>
+                            <span className="text-purple-400 font-montserrat text-left font-normal">
+                              Very low
+                            </span>
+                          </Text>
+                        </div>
+                      </div>
+                      <Button
+                        className="cursor-pointer font-medium mb-[3px] min-w-[227px] mt-[15px] rounded-[17px] text-center text-sm"
+                        color="pink_50"
+                        size="md"
+                        variant="outline"
+                      >
+                        Increase Popularity
+                      </Button>
                     </div>
-                    <Button
-                      className="cursor-pointer font-medium mb-[3px] min-w-[227px] mt-[15px] rounded-[17px] text-center text-sm"
-                      color="pink_50"
-                      size="md"
-                      variant="outline"
-                    >
-                      Increase Popularity
-                    </Button>
                   </div>
                 </div>
-                
               </div>
-
-              {/* Keypoint 2 Ends */}
-
-              <div className="absolute bottom-[5%] flex flex-col font-roboto inset-x-[0] items-center justify-start mx-auto py-2 w-[96%]">
+              <div className="absolute bottom-[3%] flex flex-col font-roboto inset-x-[0] items-center justify-start  py-2 w-[96%]">
                 <div className="flex flex-row items-center justify-start px-4 w-full">
                   <Img
                     className="h-14 w-14"
@@ -528,14 +507,12 @@ const BecomeamemberPage: React.FC = () => {
                 </div>
               </div>
             </div>
-
-            
-            <Img
+            {/* <Img
               className="h-[358px] ml-[-11.48px] mr-3.5 mt-10 z-[1]"
               src="images/img_divlwadblockh90.svg"
               alt="divlwpageconten"
-            />
-            <Button
+            /> */}
+            {/* <Button
               className="flex h-14 items-center justify-center ml-[undefinedpx] mr-[59px] mt-auto rounded-[50%] w-14 z-[1]"
               shape="circle"
               size="xl"
@@ -547,8 +524,8 @@ const BecomeamemberPage: React.FC = () => {
                 src="images/img_arrowup_white_a700.svg"
                 alt="arrowup"
               />
-            </Button>
-            <div className="flex flex-col font-roboto gap-4 items-center justify-end ml-[undefinedpx] mt-[27px] pl-3 py-3 w-[77%] z-[500]">
+            </Button> */}
+            <div className="flex flex-col font-roboto gap-4 items-center justify-start  mt-[27px] pl-3 py-3 w-[77%] z-[1]">
               <div className="flex flex-col gap-6 items-center justify-start mt-9 w-[98%] md:w-full">
                 <div className="flex flex-col items-start justify-start w-full">
                   <div className="flex flex-row gap-[11px] items-end justify-start py-0.5 w-[26%] md:w-full">
@@ -569,7 +546,7 @@ const BecomeamemberPage: React.FC = () => {
                 <Line className="bg-black-900_1e h-px w-full" />
               </div>
               <div className="md:h-[552px] h-[660px] relative w-full">
-                <div className="absolute flex flex-col items-center justify-start left-[1%] top-[0] w-[94%]">
+                <div className=" flex flex-col items-center justify-start left-[1%] top-[0] w-[94%]">
                   <div className="flex flex-col gap-2 items-center justify-end p-[11px] w-full">
                     <div className="flex flex-col items-start justify-end pr-[3px] py-[3px]">
                       <Text
@@ -588,16 +565,17 @@ const BecomeamemberPage: React.FC = () => {
                         and existing customers can upgrade their Ladies.de user
                         account to a customer account free of charge and thus
                         gain accessto new functions.
-                      </Text> 
+                      </Text>
                     </div>
                   </div>
                 </div>
-                <div className="absolute bottom-[0] flex inset-x-[0] mx-auto w-full">
+
+                <div className="  flex items-center gap-6 w-full">
                   <div className="flex flex-col items-start justify-end my-auto sm:pr-5 pr-[23px] py-[23px] w-[53%]">
-                    <div className="flex flex-col items-end justify-start overflow-auto w-full">
-                      <div className="overflow-x-auto w-full">
+                    <div className="flex flex-col items-end justify-start  w-full">
+                      <div className=" w-full">
                         <div className="flex flex-col justify-start w-full">
-                          <div className="md:h-[244px] h-[245px] relative w-[51%] sm:w-full">
+                          <div className="md:h-[244px] h-[245px] relative w-full sm:w-full">
                             <div className="flex flex-col h-full items-center justify-start m-auto w-[94%]">
                               <Img
                                 className="h-[244px] md:h-auto object-cover w-full"
@@ -662,7 +640,7 @@ const BecomeamemberPage: React.FC = () => {
                             </div>
                           </div>
                           <div className="flex flex-col gap-6 items-start justify-start md:ml-[0] ml-[19px] w-[99%] md:w-full">
-                            <div className="flex flex-col items-center justify-start pt-6 w-[48%] md:w-full">
+                            <div className="flex flex-col items-center justify-start pt-6 full] md:w-full">
                               <div className="flex flex-col gap-2 items-center justify-start pb-[92px] w-full">
                                 <div className="flex flex-col items-start justify-start pr-[3px] py-[3px] w-full">
                                   <Text
@@ -688,38 +666,27 @@ const BecomeamemberPage: React.FC = () => {
                                 </div>
                               </div>
                             </div>
-                            <div className="flex md:flex-col flex-row gap-[34px] items-center justify-between w-full">
-                              <div className="flex md:flex-1 flex-col items-center justify-start w-[49%] md:w-full">
-                                <Button
-                                  className="border border-orange-600 border-solid cursor-pointer leading-[normal] min-w-[521px] sm:min-w-full rounded-[3px] text-center text-sm"
-                                  shape="round"
-                                  color="orange_600"
-                                  size="md"
-                                  variant="fill"
-                                >
-                                  Continue as a new customer
-                                </Button>
-                              </div>
-                              <div className="h-9 relative w-[49%] md:w-full">
-                                <div className="absolute bg-orange-600 border border-orange-600 border-solid h-9 inset-[0] justify-center m-auto rounded-[3px] w-[94%]"></div>
-                                <div className="absolute flex flex-col h-max inset-[0] items-center justify-center m-auto md:px-10 sm:px-5 px-[161px] w-full">
-                                  <Text
-                                    className="text-center text-sm text-white-A700"
-                                    size="txtRobotoRegular14"
-                                  >
-                                    Continue as existing customer
-                                  </Text>
-                                </div>
-                              </div>
+
+                            <div className="flex md:flex-1 flex-col items-center justify-start w-[99%] md:w-full">
+                              <Button
+                                className="border border-orange-600 border-solid cursor-pointer leading-[normal] min-w-[521px] sm:min-w-full rounded-[3px] text-center text-sm"
+                                shape="round"
+                                color="orange_600"
+                                size="md"
+                                variant="fill"
+                              >
+                                Continue as a new customer
+                              </Button>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+
                   <div className="flex flex-col items-center justify-start ml-[-47px] my-auto py-6 w-[52%] z-[1]">
-                    <div className="overflow-x-auto w-full">
-                      <div className="flex flex-col justify-start overflow-auto w-full">
+                    <div className=" w-full">
+                      <div className="flex flex-col justify-start  w-full">
                         <div className="md:h-[244px] h-[468px] relative w-full">
                           <div className="absolute md:h-[244px] h-[245px] inset-x-[0] mx-auto top-[0] w-[99%] sm:w-full">
                             <div className="flex flex-col h-full items-center justify-start m-auto w-[87%]">
@@ -808,10 +775,21 @@ const BecomeamemberPage: React.FC = () => {
                             </div>
                           </div>
                         </div>
-                        <div className="h-9 md:ml-[0] ml-[49px] w-[99%]"></div>
+                        <div className="h-9 relative mt-[4px] w-full md:w-full">
+                          <div className="absolute bg-orange-600 border border-orange-600 border-solid h-9 inset-[0] justify-center m-auto rounded-[3px] w-[94%]"></div>
+                          <div className="absolute flex flex-col h-max inset-[0] items-center justify-center m-auto md:px-10 sm:px-5 px-[161px] w-full">
+                            <Text
+                              className="text-center text-sm text-white-A700"
+                              size="txtRobotoRegular14"
+                            >
+                              Continue as existing customer
+                            </Text>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
+
                 </div>
               </div>
             </div>
