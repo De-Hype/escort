@@ -25,7 +25,8 @@ const DesktopFourtyNine = () => {
           alt="pseudo"
         />
         <div className="md:h-[171px] h-[73px] sm:h-[85px] max-w-[1354px] mt-4 mx-auto md:px-5 relative w-full">
-          <Header1 className="absolute bg-white-A700 border-b border-gray-200_03 border-solid bottom-[0] flex flex-col inset-x-[0] items-center justify-center mx-auto w-full" />
+          <Header1 className="absolute bg-white-A700 border-b border-gray-200_03 border-solid  bottom-[0] flex flex-col inset-x-[0] items-center justify-center mx-auto w-full" />
+
           <div className="absolute flex flex-col items-center justify-start left-[0] py-4 top-[0] w-[22%]">
             <div className="flex flex-col items-center justify-start w-full">
               <div className="flex flex-col items-start justify-start px-4 w-full">
@@ -47,7 +48,7 @@ const DesktopFourtyNine = () => {
                 <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
                   <div className="flex md:flex-1 flex-col items-center justify-end pt-9 w-[34%] md:w-full">
                     <div className="flex flex-row items-center justify-start w-full">
-                      <div className="flex flex-col items-center justify-start px-[11px] w-1/2">
+                      <div className="flex flex-col items-start justify-start px-[11px] w-1/2">
                         <div className="flex flex-col items-start justify-start pr-1.5 py-1.5">
                           <Text
                             className="text-gray-800 text-sm"
@@ -89,7 +90,7 @@ const DesktopFourtyNine = () => {
                           </Text>
                         </div>
                       </div>
-                      <div className="flex flex-col items-center justify-start pb-[11px] px-[11px] w-1/2">
+                      <div className="flex flex-col items-start justify-start pb-[11px] px-[11px] w-1/2">
                         <div className="flex flex-col items-start justify-start pr-[7px] py-[7px] w-full">
                           <div className="flex flex-col items-center justify-start">
                             <Text
