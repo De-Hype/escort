@@ -28,6 +28,7 @@ import Signup from "pages/Signup";
 import Login from "pages/Login";
 import DesktopThirtyTwo from "pages/DesktopThirtyTwo";
 import Settings from "pages/SettingsNew";
+import Gallery from "pages/Gallery";
 
 const ProjectRoutes = () => {
   return (
@@ -60,8 +61,9 @@ const ProjectRoutes = () => {
           <Route path="/desktoptwentysix" element={<DesktopTwentySix />} />
           <Route path="/desktopthirtyfour" element={<DesktopThirtyFour />} />
           <Route path="/desktopthirtyfive" element={<DesktopThirtyFive />} />
+          <Route path="/gallery" element={<Gallery />} />
 
-          {/* <Route path="/settings" element={<Settings/>}/> */}
+          
         </Routes>
       </Router>
   );
